@@ -66,7 +66,7 @@ body {
 }
 
 .hero_button {
-    padding: 15px 50px;
+    padding: 15px 47px;
     border-radius: 50px;
     border: none;
     background: red;
@@ -78,7 +78,8 @@ body {
     animation: slideDown 1s ease-in-out;
 }
 
-.hero_home h1, .hero_home p {
+.hero_home h1,
+.hero_home p {
     position: relative;
     z-index: 50;
     color: rgb(22, 22, 22);
@@ -112,6 +113,7 @@ body {
         transform: translateY(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0px);
         opacity: 1;
@@ -123,6 +125,7 @@ body {
         transform: translateY(200px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0px);
         opacity: 1;
